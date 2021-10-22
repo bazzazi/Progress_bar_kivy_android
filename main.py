@@ -14,7 +14,7 @@ _______________     __________   _______   _______    _________   _______    #
 """)
 print("*********************************************************************************")
 print("*"+" "*79+"*")
-print("*  Copyright of Mohammad Ali Bazzazi, 2021                                      *")
+print("* © Copyright of Mohammad Ali Bazzazi, 2021                                      *")
 print("*"+" "*79+"*")
 print("*  https://www.youtube.com/channel/UCeLKoNs3c72Vc-OG3uNQxGw?sub_confirmation=1  *")
 print("*"+" "*79+"*")
