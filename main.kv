@@ -1,0 +1,21 @@
+<MyLayout>
+    BoxLayout:
+        size:root.width, root.height
+        padding:20
+        spacing:15
+        orientation:'vertical'
+        GridLayout:
+            cols:2
+            Label:
+                text:str(int(progress_bar.value))+"%"
+                font_size:32
+                id:mylabel
+                size_hint_x:0.2
+            ProgressBar:
+                id:progress_bar
+                min:0
+                max:100
+                value:20
+        Button:
+            text:'click me'
+            on_release:root.change_value(progress_bar.value)
