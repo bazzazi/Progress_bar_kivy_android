@@ -1,3 +1,27 @@
+# increase youtube views with python
+# Developer: Mohammad Ali Bazzazi (me)
+
+print("""
+_______________     __________   _______   _______    _________   _______    #
+|              \   |          |        /         /   |         |        /   
+|               |  |          |       /         /    |         |       /     |
+|              /   |          |      /         /     |         |      /      |
+|_____________|    |__________|     /         /      |_________|     /       |
+|              \   |          |    /         /       |         |    /        |
+|               |  |          |   /         /        |         |   /         |
+|              /   |          |  /         /         |         |  /          |
+|_____________/    |          | /_______  /_______   |         | /______     |
+""")
+print("*********************************************************************************")
+print("*"+" "*79+"*")
+print("*  Copyright of Mohammad Ali Bazzazi, 2021                                      *")
+print("*"+" "*79+"*")
+print("*  https://www.youtube.com/channel/UCeLKoNs3c72Vc-OG3uNQxGw?sub_confirmation=1  *")
+print("*"+" "*79+"*")
+print("*********************************************************************************")
+
+################## START ##################
+
 # import libraries
 from kivy.app import App
 from kivy.lang.builder import Builder
@@ -23,3 +47,5 @@ class Main(App):
 # an instance of main class
 if __name__ == "__main__":
     Main().run()
+    
+################## END ##################
